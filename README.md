@@ -1,8 +1,10 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/aletheia7/ul.svg)](https://pkg.go.dev/github.com/aletheia7/ul)
 
+###### Powered by https://github.com/aletheia7/ul
+
 #### Install 
 ```bash
-go get github.com/aletheia7/ul
+go get github.com/coder-free/ul-log
 go test -v
 ```
 
@@ -16,7 +18,7 @@ go test -v
 package main
 
 import (
-	"github.com/aletheia7/ul"
+	"github.com/coder-free/ul-log"
 	"log"
 )
 

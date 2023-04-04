@@ -4,7 +4,7 @@
 package ul_test
 
 import (
-	. "github.com/aletheia7/ul"
+	. "github.com/coder-free/ul-log"
 	"log"
 	"strconv"
 	"testing"
@@ -12,7 +12,7 @@ import (
 
 var i = 0
 var l = New()
-var lo = New_object("com.github/aletheia/ul", "test")
+var lo = New_object("github.com/coder-free/ul-log", "test")
 
 func Test_log(t *testing.T) {
 	const pre = "ul log "
